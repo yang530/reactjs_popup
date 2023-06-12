@@ -4,7 +4,7 @@ import React from "react";
 //required props:
 //pState: must be a state variable of boolean such as: const [popup_state, setPopupState] = useState(false);
 //setPState: must be a set state function for pState, so that the "X" button may close the popup
-//contents enclosed between <Popup></Popup> will be displayed inside popup window
+//props.children: contents enclosed between <Popup></Popup> will be displayed inside popup window
 function Popup(props){
 
     if(props.pState == true){
