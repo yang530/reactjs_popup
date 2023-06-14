@@ -5,9 +5,9 @@ This is a popup component for React.js. It is modularized and easily scalable.
 
 ## Required Props
 
-1. pState: must be a state variable of boolean such as: "const [popup_state, setPopupState] = useState(false)"
-2. setPState: must be a set state function for pState, so that the "X" button may close the popup
-3. props.children: contents enclosed between <Popup></Popup> will be displayed inside popup window
+1. pState: must be a state variable of boolean such as: "const [popup_state, setPopupState] = useState(false)".
+2. setPState: must be a set state function for pState, so that the "X" button may close the popup when clicked.
+3. props.children: contents enclosed between <Popup></Popup> will be displayed inside popup window.
 
 ## Example
 
